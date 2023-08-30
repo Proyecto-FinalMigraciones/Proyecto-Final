@@ -1,0 +1,484 @@
+"Region, development group, country or area",Notes,Location code,Type of data,Year,Numero de Migrantes,Género
+WORLD,0,900,0,1990C,2.9,Combinado
+  Sub-Saharan Africa,0,947,0,1990C,2.7,Combinado
+  Northern Africa and Western Asia,0,1833,0,1990C,6.1,Combinado
+  Central and Southern Asia,0,921,0,1990C,2.1,Combinado
+  Eastern and South-Eastern Asia,0,1832,0,1990C,0.4,Combinado
+  Latin America and the Caribbean,0,1830,0,1990C,1.6,Combinado
+  Oceania (excluding Australia and New Zealand),0,1835,0,1990C,3.7,Combinado
+  Australia and New Zealand,0,927,0,1990C,22.0,Combinado
+  Europe and Northern America,0,1829,0,1990C,7.7,Combinado
+  Developed regions,0,901,0,1990C,7.2,Combinado
+  Less developed regions,0,902,0,1990C,1.7,Combinado
+" Less developed regions, excluding least developed countries",0,934,0,1990C,1.6,Combinado
+" Less developed regions, excluding China",0,948,0,1990C,2.3,Combinado
+  Least developed countries,0,941,0,1990C,2.2,Combinado
+  Land-locked Developing Countries (LLDC),0,1636,0,1990C,5.3,Combinado
+  Small island developing States (SIDS),0,1637,0,1990C,4.6,Combinado
+  High-income countries,0,1503,0,1990C,7.4,Combinado
+  Middle-income countries,0,1517,0,1990C,1.7,Combinado
+ Upper-middle-income countries,0,1502,0,1990C,1.6,Combinado
+ Lower-middle-income countries,0,1501,0,1990C,1.8,Combinado
+  Low-income countries,0,1500,0,1990C,3.0,Combinado
+ AFRICA,0,903,0,1990C,2.5,Combinado
+  Eastern Africa,0,910,0,1990C,3.0,Combinado
+WORLD,0,900,0,1995C,2.8,Combinado
+  Sub-Saharan Africa,0,947,0,1995C,2.5,Combinado
+  Northern Africa and Western Asia,0,1833,0,1995C,5.9,Combinado
+  Central and Southern Asia,0,921,0,1995C,1.5,Combinado
+  Eastern and South-Eastern Asia,0,1832,0,1995C,0.4,Combinado
+  Latin America and the Caribbean,0,1830,0,1995C,1.4,Combinado
+  Oceania (excluding Australia and New Zealand),0,1835,0,1995C,3.6,Combinado
+  Australia and New Zealand,0,927,0,1995C,21.9,Combinado
+  Europe and Northern America,0,1829,0,1995C,8.5,Combinado
+  Developed regions,0,901,0,1995C,7.9,Combinado
+  Less developed regions,0,902,0,1995C,1.5,Combinado
+" Less developed regions, excluding least developed countries",0,934,0,1995C,1.4,Combinado
+" Less developed regions, excluding China",0,948,0,1995C,2.0,Combinado
+  Least developed countries,0,941,0,1995C,2.0,Combinado
+  Land-locked Developing Countries (LLDC),0,1636,0,1995C,4.1,Combinado
+  Small island developing States (SIDS),0,1637,0,1995C,5.1,Combinado
+  High-income countries,0,1503,0,1995C,8.3,Combinado
+  Middle-income countries,0,1517,0,1995C,1.5,Combinado
+ Upper-middle-income countries,0,1502,0,1995C,1.5,Combinado
+ Lower-middle-income countries,0,1501,0,1995C,1.5,Combinado
+  Low-income countries,0,1500,0,1995C,2.6,Combinado
+ AFRICA,0,903,0,1995C,2.3,Combinado
+  Eastern Africa,0,910,0,1995C,2.2,Combinado
+WORLD,0,900,0,2000C,2.8,Combinado
+  Sub-Saharan Africa,0,947,0,2000C,2.1,Combinado
+  Northern Africa and Western Asia,0,1833,0,2000C,5.7,Combinado
+  Central and Southern Asia,0,921,0,2000C,1.3,Combinado
+  Eastern and South-Eastern Asia,0,1832,0,2000C,0.5,Combinado
+  Latin America and the Caribbean,0,1830,0,2000C,1.3,Combinado
+  Oceania (excluding Australia and New Zealand),0,1835,0,2000C,3.5,Combinado
+  Australia and New Zealand,0,927,0,2000C,22.2,Combinado
+  Europe and Northern America,0,1829,0,2000C,9.4,Combinado
+  Developed regions,0,901,0,2000C,8.7,Combinado
+  Less developed regions,0,902,0,2000C,1.4,Combinado
+" Less developed regions, excluding least developed countries",0,934,0,2000C,1.4,Combinado
+" Less developed regions, excluding China",0,948,0,2000C,1.8,Combinado
+  Least developed countries,0,941,0,2000C,1.5,Combinado
+  Land-locked Developing Countries (LLDC),0,1636,0,2000C,3.4,Combinado
+  Small island developing States (SIDS),0,1637,0,2000C,5.7,Combinado
+  High-income countries,0,1503,0,2000C,9.3,Combinado
+  Middle-income countries,0,1517,0,2000C,1.4,Combinado
+ Upper-middle-income countries,0,1502,0,2000C,1.4,Combinado
+ Lower-middle-income countries,0,1501,0,2000C,1.3,Combinado
+  Low-income countries,0,1500,0,2000C,1.8,Combinado
+ AFRICA,0,903,0,2000C,1.9,Combinado
+  Eastern Africa,0,910,0,2000C,1.9,Combinado
+WORLD,0,900,0,2005C,2.9,Combinado
+  Sub-Saharan Africa,0,947,0,2005C,2.0,Combinado
+  Northern Africa and Western Asia,0,1833,0,2005C,5.9,Combinado
+  Central and Southern Asia,0,921,0,2005C,1.1,Combinado
+  Eastern and South-Eastern Asia,0,1832,0,2005C,0.6,Combinado
+  Latin America and the Caribbean,0,1830,0,2005C,1.3,Combinado
+  Oceania (excluding Australia and New Zealand),0,1835,0,2005C,3.3,Combinado
+  Australia and New Zealand,0,927,0,2005C,23.5,Combinado
+  Europe and Northern America,0,1829,0,2005C,10.3,Combinado
+  Developed regions,0,901,0,2005C,9.6,Combinado
+  Less developed regions,0,902,0,2005C,1.4,Combinado
+" Less developed regions, excluding least developed countries",0,934,0,2005C,1.4,Combinado
+" Less developed regions, excluding China",0,948,0,2005C,1.8,Combinado
+  Least developed countries,0,941,0,2005C,1.3,Combinado
+  Land-locked Developing Countries (LLDC),0,1636,0,2005C,3.1,Combinado
+  Small island developing States (SIDS),0,1637,0,2005C,6.4,Combinado
+  High-income countries,0,1503,0,2005C,10.5,Combinado
+  Middle-income countries,0,1517,0,2005C,1.3,Combinado
+ Upper-middle-income countries,0,1502,0,2005C,1.5,Combinado
+ Lower-middle-income countries,0,1501,0,2005C,1.1,Combinado
+  Low-income countries,0,1500,0,2005C,1.6,Combinado
+ AFRICA,0,903,0,2005C,1.8,Combinado
+  Eastern Africa,0,910,0,2005C,1.6,Combinado
+WORLD,0,900,0,2010C,3.2,Combinado
+  Sub-Saharan Africa,0,947,0,2010C,1.9,Combinado
+  Northern Africa and Western Asia,0,1833,0,2010C,7.5,Combinado
+  Central and Southern Asia,0,921,0,2010C,1.1,Combinado
+  Eastern and South-Eastern Asia,0,1832,0,2010C,0.7,Combinado
+  Latin America and the Caribbean,0,1830,0,2010C,1.4,Combinado
+  Oceania (excluding Australia and New Zealand),0,1835,0,2010C,2.9,Combinado
+  Australia and New Zealand,0,927,0,2010C,25.8,Combinado
+  Europe and Northern America,0,1829,0,2010C,11.3,Combinado
+  Developed regions,0,901,0,2010C,10.6,Combinado
+  Less developed regions,0,902,0,2010C,1.6,Combinado
+" Less developed regions, excluding least developed countries",0,934,0,2010C,1.6,Combinado
+" Less developed regions, excluding China",0,948,0,2010C,2.0,Combinado
+  Least developed countries,0,941,0,2010C,1.2,Combinado
+  Land-locked Developing Countries (LLDC),0,1636,0,2010C,2.8,Combinado
+  Small island developing States (SIDS),0,1637,0,2010C,7.2,Combinado
+  High-income countries,0,1503,0,2010C,12.1,Combinado
+  Middle-income countries,0,1517,0,2010C,1.3,Combinado
+ Upper-middle-income countries,0,1502,0,2010C,1.6,Combinado
+ Lower-middle-income countries,0,1501,0,2010C,1.1,Combinado
+  Low-income countries,0,1500,0,2010C,1.7,Combinado
+ AFRICA,0,903,0,2010C,1.7,Combinado
+  Eastern Africa,0,910,0,2010C,1.4,Combinado
+WORLD,0,900,0,2015C,3.4,Combinado
+  Sub-Saharan Africa,0,947,0,2015C,2.2,Combinado
+  Northern Africa and Western Asia,0,1833,0,2015C,8.7,Combinado
+  Central and Southern Asia,0,921,0,2015C,1.0,Combinado
+  Eastern and South-Eastern Asia,0,1832,0,2015C,0.8,Combinado
+  Latin America and the Caribbean,0,1830,0,2015C,1.5,Combinado
+  Oceania (excluding Australia and New Zealand),0,1835,0,2015C,2.7,Combinado
+  Australia and New Zealand,0,927,0,2015C,27.2,Combinado
+  Europe and Northern America,0,1829,0,2015C,11.9,Combinado
+  Developed regions,0,901,0,2015C,11.2,Combinado
+  Less developed regions,0,902,0,2015C,1.8,Combinado
+" Less developed regions, excluding least developed countries",0,934,0,2015C,1.8,Combinado
+" Less developed regions, excluding China",0,948,0,2015C,2.2,Combinado
+  Least developed countries,0,941,0,2015C,1.4,Combinado
+  Land-locked Developing Countries (LLDC),0,1636,0,2015C,2.9,Combinado
+  Small island developing States (SIDS),0,1637,0,2015C,7.7,Combinado
+  High-income countries,0,1503,0,2015C,13.1,Combinado
+  Middle-income countries,0,1517,0,2015C,1.4,Combinado
+ Upper-middle-income countries,0,1502,0,2015C,1.8,Combinado
+ Lower-middle-income countries,0,1501,0,2015C,1.0,Combinado
+  Low-income countries,0,1500,0,2015C,1.7,Combinado
+ AFRICA,0,903,0,2015C,1.9,Combinado
+  Eastern Africa,0,910,0,2015C,1.7,Combinado
+WORLD,0,900,0,2020C,3.6,Combinado
+  Sub-Saharan Africa,0,947,0,2020C,2.0,Combinado
+  Northern Africa and Western Asia,0,1833,0,2020C,9.5,Combinado
+  Central and Southern Asia,0,921,0,2020C,1.0,Combinado
+  Eastern and South-Eastern Asia,0,1832,0,2020C,0.8,Combinado
+  Latin America and the Caribbean,0,1830,0,2020C,2.3,Combinado
+  Oceania (excluding Australia and New Zealand),0,1835,0,2020C,2.5,Combinado
+  Australia and New Zealand,0,927,0,2020C,29.9,Combinado
+  Europe and Northern America,0,1829,0,2020C,13.0,Combinado
+  Developed regions,0,901,0,2020C,12.4,Combinado
+  Less developed regions,0,902,0,2020C,1.9,Combinado
+" Less developed regions, excluding least developed countries",0,934,0,2020C,2.0,Combinado
+" Less developed regions, excluding China",0,948,0,2020C,2.4,Combinado
+  Least developed countries,0,941,0,2020C,1.5,Combinado
+  Land-locked Developing Countries (LLDC),0,1636,0,2020C,2.8,Combinado
+  Small island developing States (SIDS),0,1637,0,2020C,7.9,Combinado
+  High-income countries,0,1503,0,2020C,14.7,Combinado
+  Middle-income countries,0,1517,0,2020C,1.5,Combinado
+ Upper-middle-income countries,0,1502,0,2020C,2.0,Combinado
+ Lower-middle-income countries,0,1501,0,2020C,1.0,Combinado
+  Low-income countries,0,1500,0,2020C,1.8,Combinado
+ AFRICA,0,903,0,2020C,1.9,Combinado
+  Eastern Africa,0,910,0,2020C,1.7,Combinado
+WORLD,0,900,0,1990H,2.9,Hombres
+  Sub-Saharan Africa,0,947,0,1990H,2.9,Hombres
+  Northern Africa and Western Asia,0,1833,0,1990H,7.0,Hombres
+  Central and Southern Asia,0,921,0,1990H,2.1,Hombres
+  Eastern and South-Eastern Asia,0,1832,0,1990H,0.4,Hombres
+  Latin America and the Caribbean,0,1830,0,1990H,1.6,Hombres
+  Oceania (excluding Australia and New Zealand),0,1835,0,1990H,4.1,Hombres
+  Australia and New Zealand,0,927,0,1990H,22.4,Hombres
+  Europe and Northern America,0,1829,0,1990H,7.8,Hombres
+  Developed regions,0,901,0,1990H,7.3,Hombres
+  Less developed regions,0,902,0,1990H,1.7,Hombres
+" Less developed regions, excluding least developed countries",0,934,0,1990H,1.7,Hombres
+" Less developed regions, excluding China",0,948,0,1990H,2.4,Hombres
+  Least developed countries,0,941,0,1990H,2.2,Hombres
+  Land-locked Developing Countries (LLDC),0,1636,0,1990H,5.0,Hombres
+  Small island developing States (SIDS),0,1637,0,1990H,4.9,Hombres
+  High-income countries,0,1503,0,1990H,7.7,Hombres
+  Middle-income countries,0,1517,0,1990H,1.7,Hombres
+ Upper-middle-income countries,0,1502,0,1990H,1.6,Hombres
+ Lower-middle-income countries,0,1501,0,1990H,1.8,Hombres
+  Low-income countries,0,1500,0,1990H,3.1,Hombres
+ AFRICA,0,903,0,1990H,2.6,Hombres
+  Eastern Africa,0,910,0,1990H,3.1,Hombres
+WORLD,0,900,0,1995H,2.8,Hombres
+  Sub-Saharan Africa,0,947,0,1995H,2.7,Hombres
+  Northern Africa and Western Asia,0,1833,0,1995H,6.8,Hombres
+  Central and Southern Asia,0,921,0,1995H,1.5,Hombres
+  Eastern and South-Eastern Asia,0,1832,0,1995H,0.4,Hombres
+  Latin America and the Caribbean,0,1830,0,1995H,1.4,Hombres
+  Oceania (excluding Australia and New Zealand),0,1835,0,1995H,3.9,Hombres
+  Australia and New Zealand,0,927,0,1995H,22.1,Hombres
+  Europe and Northern America,0,1829,0,1995H,8.5,Hombres
+  Developed regions,0,901,0,1995H,8.0,Hombres
+  Less developed regions,0,902,0,1995H,1.6,Hombres
+" Less developed regions, excluding least developed countries",0,934,0,1995H,1.5,Hombres
+" Less developed regions, excluding China",0,948,0,1995H,2.1,Hombres
+  Least developed countries,0,941,0,1995H,2.0,Hombres
+  Land-locked Developing Countries (LLDC),0,1636,0,1995H,3.9,Hombres
+  Small island developing States (SIDS),0,1637,0,1995H,5.3,Hombres
+  High-income countries,0,1503,0,1995H,8.6,Hombres
+  Middle-income countries,0,1517,0,1995H,1.5,Hombres
+ Upper-middle-income countries,0,1502,0,1995H,1.5,Hombres
+ Lower-middle-income countries,0,1501,0,1995H,1.4,Hombres
+  Low-income countries,0,1500,0,1995H,2.6,Hombres
+ AFRICA,0,903,0,1995H,2.4,Hombres
+  Eastern Africa,0,910,0,1995H,2.3,Hombres
+WORLD,0,900,0,2000H,2.8,Hombres
+  Sub-Saharan Africa,0,947,0,2000H,2.2,Hombres
+  Northern Africa and Western Asia,0,1833,0,2000H,6.7,Hombres
+  Central and Southern Asia,0,921,0,2000H,1.3,Hombres
+  Eastern and South-Eastern Asia,0,1832,0,2000H,0.5,Hombres
+  Latin America and the Caribbean,0,1830,0,2000H,1.3,Hombres
+  Oceania (excluding Australia and New Zealand),0,1835,0,2000H,3.6,Hombres
+  Australia and New Zealand,0,927,0,2000H,22.2,Hombres
+  Europe and Northern America,0,1829,0,2000H,9.4,Hombres
+  Developed regions,0,901,0,2000H,8.8,Hombres
+  Less developed regions,0,902,0,2000H,1.5,Hombres
+" Less developed regions, excluding least developed countries",0,934,0,2000H,1.5,Hombres
+" Less developed regions, excluding China",0,948,0,2000H,1.9,Hombres
+  Least developed countries,0,941,0,2000H,1.5,Hombres
+  Land-locked Developing Countries (LLDC),0,1636,0,2000H,3.2,Hombres
+  Small island developing States (SIDS),0,1637,0,2000H,5.7,Hombres
+  High-income countries,0,1503,0,2000H,9.6,Hombres
+  Middle-income countries,0,1517,0,2000H,1.4,Hombres
+ Upper-middle-income countries,0,1502,0,2000H,1.4,Hombres
+ Lower-middle-income countries,0,1501,0,2000H,1.3,Hombres
+  Low-income countries,0,1500,0,2000H,1.9,Hombres
+ AFRICA,0,903,0,2000H,2.0,Hombres
+  Eastern Africa,0,910,0,2000H,2.0,Hombres
+WORLD,0,900,0,2005H,3.0,Hombres
+  Sub-Saharan Africa,0,947,0,2005H,2.1,Hombres
+  Northern Africa and Western Asia,0,1833,0,2005H,7.2,Hombres
+  Central and Southern Asia,0,921,0,2005H,1.1,Hombres
+  Eastern and South-Eastern Asia,0,1832,0,2005H,0.6,Hombres
+  Latin America and the Caribbean,0,1830,0,2005H,1.3,Hombres
+  Oceania (excluding Australia and New Zealand),0,1835,0,2005H,3.4,Hombres
+  Australia and New Zealand,0,927,0,2005H,23.4,Hombres
+  Europe and Northern America,0,1829,0,2005H,10.4,Hombres
+  Developed regions,0,901,0,2005H,9.7,Hombres
+  Less developed regions,0,902,0,2005H,1.5,Hombres
+" Less developed regions, excluding least developed countries",0,934,0,2005H,1.5,Hombres
+" Less developed regions, excluding China",0,948,0,2005H,1.9,Hombres
+  Least developed countries,0,941,0,2005H,1.3,Hombres
+  Land-locked Developing Countries (LLDC),0,1636,0,2005H,2.9,Hombres
+  Small island developing States (SIDS),0,1637,0,2005H,6.5,Hombres
+  High-income countries,0,1503,0,2005H,10.9,Hombres
+  Middle-income countries,0,1517,0,2005H,1.3,Hombres
+ Upper-middle-income countries,0,1502,0,2005H,1.5,Hombres
+ Lower-middle-income countries,0,1501,0,2005H,1.1,Hombres
+  Low-income countries,0,1500,0,2005H,1.6,Hombres
+ AFRICA,0,903,0,2005H,1.9,Hombres
+  Eastern Africa,0,910,0,2005H,1.7,Hombres
+WORLD,0,900,0,2010H,3.2,Hombres
+  Sub-Saharan Africa,0,947,0,2010H,2.0,Hombres
+  Northern Africa and Western Asia,0,1833,0,2010H,9.5,Hombres
+  Central and Southern Asia,0,921,0,2010H,1.1,Hombres
+  Eastern and South-Eastern Asia,0,1832,0,2010H,0.7,Hombres
+  Latin America and the Caribbean,0,1830,0,2010H,1.4,Hombres
+  Oceania (excluding Australia and New Zealand),0,1835,0,2010H,3.0,Hombres
+  Australia and New Zealand,0,927,0,2010H,25.6,Hombres
+  Europe and Northern America,0,1829,0,2010H,11.3,Hombres
+  Developed regions,0,901,0,2010H,10.6,Hombres
+  Less developed regions,0,902,0,2010H,1.7,Hombres
+" Less developed regions, excluding least developed countries",0,934,0,2010H,1.8,Hombres
+" Less developed regions, excluding China",0,948,0,2010H,2.2,Hombres
+  Least developed countries,0,941,0,2010H,1.2,Hombres
+  Land-locked Developing Countries (LLDC),0,1636,0,2010H,2.7,Hombres
+  Small island developing States (SIDS),0,1637,0,2010H,7.4,Hombres
+  High-income countries,0,1503,0,2010H,12.7,Hombres
+  Middle-income countries,0,1517,0,2010H,1.3,Hombres
+ Upper-middle-income countries,0,1502,0,2010H,1.6,Hombres
+ Lower-middle-income countries,0,1501,0,2010H,1.0,Hombres
+  Low-income countries,0,1500,0,2010H,1.7,Hombres
+ AFRICA,0,903,0,2010H,1.8,Hombres
+  Eastern Africa,0,910,0,2010H,1.4,Hombres
+WORLD,0,900,0,2015H,3.4,Hombres
+  Sub-Saharan Africa,0,947,0,2015H,2.3,Hombres
+  Northern Africa and Western Asia,0,1833,0,2015H,11.0,Hombres
+  Central and Southern Asia,0,921,0,2015H,1.0,Hombres
+  Eastern and South-Eastern Asia,0,1832,0,2015H,0.8,Hombres
+  Latin America and the Caribbean,0,1830,0,2015H,1.5,Hombres
+  Oceania (excluding Australia and New Zealand),0,1835,0,2015H,2.8,Hombres
+  Australia and New Zealand,0,927,0,2015H,27.1,Hombres
+  Europe and Northern America,0,1829,0,2015H,11.7,Hombres
+  Developed regions,0,901,0,2015H,11.1,Hombres
+  Less developed regions,0,902,0,2015H,1.9,Hombres
+" Less developed regions, excluding least developed countries",0,934,0,2015H,2.0,Hombres
+" Less developed regions, excluding China",0,948,0,2015H,2.5,Hombres
+  Least developed countries,0,941,0,2015H,1.4,Hombres
+  Land-locked Developing Countries (LLDC),0,1636,0,2015H,2.9,Hombres
+  Small island developing States (SIDS),0,1637,0,2015H,7.9,Hombres
+  High-income countries,0,1503,0,2015H,13.7,Hombres
+  Middle-income countries,0,1517,0,2015H,1.4,Hombres
+ Upper-middle-income countries,0,1502,0,2015H,1.9,Hombres
+ Lower-middle-income countries,0,1501,0,2015H,1.0,Hombres
+  Low-income countries,0,1500,0,2015H,1.7,Hombres
+ AFRICA,0,903,0,2015H,2.1,Hombres
+  Eastern Africa,0,910,0,2015H,1.7,Hombres
+WORLD,0,900,0,2020H,3.7,Hombres
+  Sub-Saharan Africa,0,947,0,2020H,2.1,Hombres
+  Northern Africa and Western Asia,0,1833,0,2020H,11.8,Hombres
+  Central and Southern Asia,0,921,0,2020H,0.9,Hombres
+  Eastern and South-Eastern Asia,0,1832,0,2020H,0.8,Hombres
+  Latin America and the Caribbean,0,1830,0,2020H,2.3,Hombres
+  Oceania (excluding Australia and New Zealand),0,1835,0,2020H,2.6,Hombres
+  Australia and New Zealand,0,927,0,2020H,29.7,Hombres
+  Europe and Northern America,0,1829,0,2020H,12.9,Hombres
+  Developed regions,0,901,0,2020H,12.3,Hombres
+  Less developed regions,0,902,0,2020H,2.1,Hombres
+" Less developed regions, excluding least developed countries",0,934,0,2020H,2.2,Hombres
+" Less developed regions, excluding China",0,948,0,2020H,2.6,Hombres
+  Least developed countries,0,941,0,2020H,1.5,Hombres
+  Land-locked Developing Countries (LLDC),0,1636,0,2020H,2.7,Hombres
+  Small island developing States (SIDS),0,1637,0,2020H,8.3,Hombres
+  High-income countries,0,1503,0,2020H,15.5,Hombres
+  Middle-income countries,0,1517,0,2020H,1.5,Hombres
+ Upper-middle-income countries,0,1502,0,2020H,2.0,Hombres
+ Lower-middle-income countries,0,1501,0,2020H,0.9,Hombres
+  Low-income countries,0,1500,0,2020H,1.8,Hombres
+ AFRICA,0,903,0,2020H,2.0,Hombres
+  Eastern Africa,0,910,0,2020H,1.7,Hombres
+WORLD,0,900,0,1990M,2.9,Mujeres
+  Sub-Saharan Africa,0,947,0,1990M,2.5,Mujeres
+  Northern Africa and Western Asia,0,1833,0,1990M,5.2,Mujeres
+  Central and Southern Asia,0,921,0,1990M,2.2,Mujeres
+  Eastern and South-Eastern Asia,0,1832,0,1990M,0.4,Mujeres
+  Latin America and the Caribbean,0,1830,0,1990M,1.6,Mujeres
+  Oceania (excluding Australia and New Zealand),0,1835,0,1990M,3.4,Mujeres
+  Australia and New Zealand,0,927,0,1990M,21.5,Mujeres
+  Europe and Northern America,0,1829,0,1990M,7.7,Mujeres
+  Developed regions,0,901,0,1990M,7.2,Mujeres
+  Less developed regions,0,902,0,1990M,1.6,Mujeres
+" Less developed regions, excluding least developed countries",0,934,0,1990M,1.5,Mujeres
+" Less developed regions, excluding China",0,948,0,1990M,2.2,Mujeres
+  Least developed countries,0,941,0,1990M,2.2,Mujeres
+  Land-locked Developing Countries (LLDC),0,1636,0,1990M,5.6,Mujeres
+  Small island developing States (SIDS),0,1637,0,1990M,4.4,Mujeres
+  High-income countries,0,1503,0,1990M,7.1,Mujeres
+  Middle-income countries,0,1517,0,1990M,1.7,Mujeres
+ Upper-middle-income countries,0,1502,0,1990M,1.6,Mujeres
+ Lower-middle-income countries,0,1501,0,1990M,1.9,Mujeres
+  Low-income countries,0,1500,0,1990M,3.0,Mujeres
+ AFRICA,0,903,0,1990M,2.3,Mujeres
+  Eastern Africa,0,910,0,1990M,2.9,Mujeres
+WORLD,0,900,0,1995M,2.8,Mujeres
+  Sub-Saharan Africa,0,947,0,1995M,2.4,Mujeres
+  Northern Africa and Western Asia,0,1833,0,1995M,4.9,Mujeres
+  Central and Southern Asia,0,921,0,1995M,1.6,Mujeres
+  Eastern and South-Eastern Asia,0,1832,0,1995M,0.4,Mujeres
+  Latin America and the Caribbean,0,1830,0,1995M,1.4,Mujeres
+  Oceania (excluding Australia and New Zealand),0,1835,0,1995M,3.4,Mujeres
+  Australia and New Zealand,0,927,0,1995M,21.6,Mujeres
+  Europe and Northern America,0,1829,0,1995M,8.5,Mujeres
+  Developed regions,0,901,0,1995M,7.9,Mujeres
+  Less developed regions,0,902,0,1995M,1.4,Mujeres
+" Less developed regions, excluding least developed countries",0,934,0,1995M,1.3,Mujeres
+" Less developed regions, excluding China",0,948,0,1995M,1.9,Mujeres
+  Least developed countries,0,941,0,1995M,2.0,Mujeres
+  Land-locked Developing Countries (LLDC),0,1636,0,1995M,4.4,Mujeres
+  Small island developing States (SIDS),0,1637,0,1995M,5.0,Mujeres
+  High-income countries,0,1503,0,1995M,7.9,Mujeres
+  Middle-income countries,0,1517,0,1995M,1.5,Mujeres
+ Upper-middle-income countries,0,1502,0,1995M,1.5,Mujeres
+ Lower-middle-income countries,0,1501,0,1995M,1.5,Mujeres
+  Low-income countries,0,1500,0,1995M,2.5,Mujeres
+ AFRICA,0,903,0,1995M,2.2,Mujeres
+  Eastern Africa,0,910,0,1995M,2.1,Mujeres
+WORLD,0,900,0,2000M,2.8,Mujeres
+  Sub-Saharan Africa,0,947,0,2000M,1.9,Mujeres
+  Northern Africa and Western Asia,0,1833,0,2000M,4.7,Mujeres
+  Central and Southern Asia,0,921,0,2000M,1.4,Mujeres
+  Eastern and South-Eastern Asia,0,1832,0,2000M,0.5,Mujeres
+  Latin America and the Caribbean,0,1830,0,2000M,1.2,Mujeres
+  Oceania (excluding Australia and New Zealand),0,1835,0,2000M,3.3,Mujeres
+  Australia and New Zealand,0,927,0,2000M,22.2,Mujeres
+  Europe and Northern America,0,1829,0,2000M,9.3,Mujeres
+  Developed regions,0,901,0,2000M,8.7,Mujeres
+  Less developed regions,0,902,0,2000M,1.3,Mujeres
+" Less developed regions, excluding least developed countries",0,934,0,2000M,1.3,Mujeres
+" Less developed regions, excluding China",0,948,0,2000M,1.7,Mujeres
+  Least developed countries,0,941,0,2000M,1.5,Mujeres
+  Land-locked Developing Countries (LLDC),0,1636,0,2000M,3.7,Mujeres
+  Small island developing States (SIDS),0,1637,0,2000M,5.7,Mujeres
+  High-income countries,0,1503,0,2000M,8.9,Mujeres
+  Middle-income countries,0,1517,0,2000M,1.4,Mujeres
+ Upper-middle-income countries,0,1502,0,2000M,1.4,Mujeres
+ Lower-middle-income countries,0,1501,0,2000M,1.3,Mujeres
+  Low-income countries,0,1500,0,2000M,1.8,Mujeres
+ AFRICA,0,903,0,2000M,1.7,Mujeres
+  Eastern Africa,0,910,0,2000M,1.8,Mujeres
+WORLD,0,900,0,2005M,2.9,Mujeres
+  Sub-Saharan Africa,0,947,0,2005M,1.8,Mujeres
+  Northern Africa and Western Asia,0,1833,0,2005M,4.6,Mujeres
+  Central and Southern Asia,0,921,0,2005M,1.2,Mujeres
+  Eastern and South-Eastern Asia,0,1832,0,2005M,0.6,Mujeres
+  Latin America and the Caribbean,0,1830,0,2005M,1.3,Mujeres
+  Oceania (excluding Australia and New Zealand),0,1835,0,2005M,3.1,Mujeres
+  Australia and New Zealand,0,927,0,2005M,23.7,Mujeres
+  Europe and Northern America,0,1829,0,2005M,10.2,Mujeres
+  Developed regions,0,901,0,2005M,9.6,Mujeres
+  Less developed regions,0,902,0,2005M,1.3,Mujeres
+" Less developed regions, excluding least developed countries",0,934,0,2005M,1.3,Mujeres
+" Less developed regions, excluding China",0,948,0,2005M,1.6,Mujeres
+  Least developed countries,0,941,0,2005M,1.3,Mujeres
+  Land-locked Developing Countries (LLDC),0,1636,0,2005M,3.3,Mujeres
+  Small island developing States (SIDS),0,1637,0,2005M,6.3,Mujeres
+  High-income countries,0,1503,0,2005M,10.1,Mujeres
+  Middle-income countries,0,1517,0,2005M,1.3,Mujeres
+ Upper-middle-income countries,0,1502,0,2005M,1.5,Mujeres
+ Lower-middle-income countries,0,1501,0,2005M,1.2,Mujeres
+  Low-income countries,0,1500,0,2005M,1.6,Mujeres
+ AFRICA,0,903,0,2005M,1.6,Mujeres
+  Eastern Africa,0,910,0,2005M,1.5,Mujeres
+WORLD,0,900,0,2010M,3.1,Mujeres
+  Sub-Saharan Africa,0,947,0,2010M,1.8,Mujeres
+  Northern Africa and Western Asia,0,1833,0,2010M,5.4,Mujeres
+  Central and Southern Asia,0,921,0,2010M,1.1,Mujeres
+  Eastern and South-Eastern Asia,0,1832,0,2010M,0.7,Mujeres
+  Latin America and the Caribbean,0,1830,0,2010M,1.4,Mujeres
+  Oceania (excluding Australia and New Zealand),0,1835,0,2010M,2.7,Mujeres
+  Australia and New Zealand,0,927,0,2010M,25.9,Mujeres
+  Europe and Northern America,0,1829,0,2010M,11.3,Mujeres
+  Developed regions,0,901,0,2010M,10.6,Mujeres
+  Less developed regions,0,902,0,2010M,1.4,Mujeres
+" Less developed regions, excluding least developed countries",0,934,0,2010M,1.4,Mujeres
+" Less developed regions, excluding China",0,948,0,2010M,1.8,Mujeres
+  Least developed countries,0,941,0,2010M,1.2,Mujeres
+  Land-locked Developing Countries (LLDC),0,1636,0,2010M,2.9,Mujeres
+  Small island developing States (SIDS),0,1637,0,2010M,7.0,Mujeres
+  High-income countries,0,1503,0,2010M,11.5,Mujeres
+  Middle-income countries,0,1517,0,2010M,1.3,Mujeres
+ Upper-middle-income countries,0,1502,0,2010M,1.5,Mujeres
+ Lower-middle-income countries,0,1501,0,2010M,1.1,Mujeres
+  Low-income countries,0,1500,0,2010M,1.6,Mujeres
+ AFRICA,0,903,0,2010M,1.6,Mujeres
+  Eastern Africa,0,910,0,2010M,1.4,Mujeres
+WORLD,0,900,0,2015M,3.3,Mujeres
+  Sub-Saharan Africa,0,947,0,2015M,2.1,Mujeres
+  Northern Africa and Western Asia,0,1833,0,2015M,6.4,Mujeres
+  Central and Southern Asia,0,921,0,2015M,1.1,Mujeres
+  Eastern and South-Eastern Asia,0,1832,0,2015M,0.8,Mujeres
+  Latin America and the Caribbean,0,1830,0,2015M,1.5,Mujeres
+  Oceania (excluding Australia and New Zealand),0,1835,0,2015M,2.6,Mujeres
+  Australia and New Zealand,0,927,0,2015M,27.3,Mujeres
+  Europe and Northern America,0,1829,0,2015M,12.0,Mujeres
+  Developed regions,0,901,0,2015M,11.3,Mujeres
+  Less developed regions,0,902,0,2015M,1.6,Mujeres
+" Less developed regions, excluding least developed countries",0,934,0,2015M,1.6,Mujeres
+" Less developed regions, excluding China",0,948,0,2015M,1.9,Mujeres
+  Least developed countries,0,941,0,2015M,1.4,Mujeres
+  Land-locked Developing Countries (LLDC),0,1636,0,2015M,3.0,Mujeres
+  Small island developing States (SIDS),0,1637,0,2015M,7.4,Mujeres
+  High-income countries,0,1503,0,2015M,12.4,Mujeres
+  Middle-income countries,0,1517,0,2015M,1.4,Mujeres
+ Upper-middle-income countries,0,1502,0,2015M,1.7,Mujeres
+ Lower-middle-income countries,0,1501,0,2015M,1.0,Mujeres
+  Low-income countries,0,1500,0,2015M,1.7,Mujeres
+ AFRICA,0,903,0,2015M,1.8,Mujeres
+  Eastern Africa,0,910,0,2015M,1.7,Mujeres
+WORLD,0,900,0,2020M,3.5,Mujeres
+  Sub-Saharan Africa,0,947,0,2020M,1.9,Mujeres
+  Northern Africa and Western Asia,0,1833,0,2020M,7.0,Mujeres
+  Central and Southern Asia,0,921,0,2020M,1.0,Mujeres
+  Eastern and South-Eastern Asia,0,1832,0,2020M,0.8,Mujeres
+  Latin America and the Caribbean,0,1830,0,2020M,2.2,Mujeres
+  Oceania (excluding Australia and New Zealand),0,1835,0,2020M,2.4,Mujeres
+  Australia and New Zealand,0,927,0,2020M,30.1,Mujeres
+  Europe and Northern America,0,1829,0,2020M,13.1,Mujeres
+  Developed regions,0,901,0,2020M,12.4,Mujeres
+  Less developed regions,0,902,0,2020M,1.7,Mujeres
+" Less developed regions, excluding least developed countries",0,934,0,2020M,1.7,Mujeres
+" Less developed regions, excluding China",0,948,0,2020M,2.1,Mujeres
+  Least developed countries,0,941,0,2020M,1.5,Mujeres
+  Land-locked Developing Countries (LLDC),0,1636,0,2020M,2.9,Mujeres
+  Small island developing States (SIDS),0,1637,0,2020M,7.5,Mujeres
+  High-income countries,0,1503,0,2020M,13.9,Mujeres
+  Middle-income countries,0,1517,0,2020M,1.4,Mujeres
+ Upper-middle-income countries,0,1502,0,2020M,1.9,Mujeres
+ Lower-middle-income countries,0,1501,0,2020M,1.0,Mujeres
+  Low-income countries,0,1500,0,2020M,1.8,Mujeres
+ AFRICA,0,903,0,2020M,1.8,Mujeres
+  Eastern Africa,0,910,0,2020M,1.7,Mujeres
