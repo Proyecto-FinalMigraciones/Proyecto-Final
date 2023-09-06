@@ -1,4 +1,4 @@
-Año,Country Name,Country Code,Crecimiento del PIB (anual %),Tasa de desempleo (%),"Inflación, deflactor PIB (anual %)","Homicidios intencionales (por 100,000 personas)",Muertes por conflicto (nro personas),Control de Corrupción (rango percentil),Emisiones de CO2 (kt),Esperanza de vida al nacer (años),Migración neta,Población total
+Año,Pais,Codigo_Pais,Crecimiento_PIB,Tasa_desempleo,Inflacion_PIB,Homicidios_intencionales,Muertes_Conflicto,Control_Corrupcion,Emisiones_CO2,Esperanza_vida,Migracion_neta,Poblacion_total
 2000,Argentina,ARG,-0.78899893905691,15.0,1.03728710073175,0.0,0.0,52.1276588439941,132265.5,73.926,-22770.0,37070774.0
 2000,Australia,AUS,3.90117137135968,6.28,2.56038355183502,1.90346358335012,0.0,93.6170196533203,339422.8,79.2341463414634,109375.0,19028802.0
 2000,Brazil,BRA,4.38794944745618,10.53,5.60606514085735,25.7997614021008,0.0,57.9787216186523,313670.8,69.737,-1761.0,175873720.0
