@@ -1,4 +1,4 @@
-Año,Pais,Codigo_Pais,Hombres_origen,Mujeres_origen,Hombres_destino,Mujeres_destino
+Año,Pais,Id_Pais,Hombres_origen,Mujeres_origen,Hombres_destino,Mujeres_destino
 2000.0,Burundi,BY,388445.0,370228.0,61094.0,64534.0
 2000.0,Comoros,COM,36958.0,33544.0,6511.0,7288.0
 2000.0,Djibouti,DJI,5201.0,3854.0,52920.0,47587.0
