@@ -26,7 +26,7 @@ class DataInjectionStack(Stack):
         # Crea un recurso para la regla de EventBridge
         event_rule_target = _lambda.Function(
             self, "EventRuleCronCargaIncremental",
-            runtime=_lambda.Runtime.PYTHON_3_8,
+            runtime=_lambda.Runtime.PYTHON_3_9,
             handler="lambda.handler",
             code=_lambda.Code.from_asset("lambda"),
             environment={
@@ -35,7 +35,7 @@ class DataInjectionStack(Stack):
         )
 
         rule = events.Rule(self, "RuleCronCargaIncremental",        
-            schedule=events.Schedule.rate(Duration.minutes(120)),
+            schedule=events.Schedule.rate(Duration.minutes(60)),
             targets=[targets.LambdaFunction(event_rule_target)]
 )
 
