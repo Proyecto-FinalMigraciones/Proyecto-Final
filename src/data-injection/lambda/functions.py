@@ -6,7 +6,7 @@ import pandas as pd
 def obtener_paginas_totales(indicador): 
 
     host = "api.worldbank.org"
-    path = f"/v2/country/all/indicator/{indicador}?format=json&date=2000:2020"
+    path = f"/v2/country/all/indicator/{indicador}?format=json"
 
     conn = http.client.HTTPSConnection(host)
     conn.request("GET", path)
@@ -24,13 +24,14 @@ def obtener_paginas_totales(indicador):
 def obtener_datos(indicador):
 
     total_data = []
-    paginas_totales = obtener_paginas_totales(indicador)
+    # paginas_totales = obtener_paginas_totales(indicador)
+    paginas_totales = 3
     host = "api.worldbank.org"
     conn = http.client.HTTPSConnection(host)
 
     for pagina in range(1, paginas_totales + 1):
         try:
-            path = f"/v2/country/all/indicator/{indicador}?format=json&date=2000:2020&page={pagina}"
+            path = f"/v2/country/all/indicator/{indicador}?format=json&page={pagina}"
             conn.request("GET", path)
             response = conn.getresponse()
             data = response.read()
