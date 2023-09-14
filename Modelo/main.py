@@ -196,7 +196,7 @@ def prediccion_flujo(pais: Pais):
 @app.get("/Modelo de prediccion/Lista de predicciones del 2019")
 def lista_predicciones():
     datos_prediccion = indicadores[['Crecimiento_PIB', 'Tasa_desempleo', 'Muertes_Conflicto', 'Control_Corrupcion']]
-    prediccion = modelo.predict(datos_prediccion)
+    prediccion = modelo.predict(datos_prediccion).tolist()
     return {'pais': indicadores['Pais'], 'respuesta': prediccion}
 
 @app.get("/Modelo de prediccion/Insercion de datos manual")
