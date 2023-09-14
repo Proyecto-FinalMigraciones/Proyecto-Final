@@ -185,6 +185,7 @@ def obtener_datos_por_pais(pais):
         lista_fila = fila_buscada.iloc[0].drop('Pais').tolist()
     return lista_fila
 
+ind = indicadores
 
 @app.get("/Modelo de prediccion/Predice con datos del 2019")
 def prediccion_flujo(pais: Pais):
@@ -204,8 +205,8 @@ def prediccion_flujo(pais: Pais):
 
 @app.get("/Modelo de prediccion/Lista de predicciones del 2019")
 def lista_predicciones():
-    global indicadores
-    datos_prediccion = indicadores[['Pais', 'Crecimiento_PIB', 'Tasa_desempleo', 'Muertes_Conflicto', 'Control_Corrupcion']]  # Asegúrate de incluir 'Pais' en los datos
+    global ind
+    datos_prediccion = ind[['Pais', 'Crecimiento_PIB', 'Tasa_desempleo', 'Muertes_Conflicto', 'Control_Corrupcion']]  # Asegúrate de incluir 'Pais' en los datos
     prediccion = modelo.predict(datos_prediccion.iloc[:, 1:])  # Excluye la columna 'Pais' en la predicción
     prediccion_entero = [int(valor) for valor in prediccion]
 
