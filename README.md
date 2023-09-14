@@ -52,9 +52,9 @@ EDA
 
 ## Machine Learning
 
-Sobre el modelo
+Se planteo como objetivo de machine learning generar un modelo que prediga los flujos migratorios, tomándose para el entrenamiento las columnas 'Crecimiento_PIB', 'Tasa_desempleo', 'Muertes_Conflicto', 'Control_Corrupcion' y como objetivo la columna 'Migracion_neta' de la tabla indicadores en un modelo de regresion lineal, después se realizo la renderización de los datos mostrando tres endpoints, el primero en el que se ingresa el país del que se quiere la prediccion y te devuelve la misma, el segundo donde no se ingresa ningún valor y te devuelve una lista con la prediccion de todos los países y el último en el que no se hace referencia a ningún país en específico, en donde se puede ingresar valores a voluntad y hacer una prediccion manual
 
-Deploy
+https://prediccion-migracion.onrender.com/docs#/
 
 ## Dashboard
 Explicar el Dashboard

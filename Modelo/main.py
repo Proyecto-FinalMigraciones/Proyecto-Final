@@ -191,7 +191,14 @@ def prediccion_flujo(pais: Pais):
     df = pd.DataFrame([datos_prediccion])
     prediccion = modelo.predict(df)
     prediccion_entero = int(prediccion[0])
-    return {'respuesta': prediccion_entero}
+    return {'prediccion': prediccion_entero}
+
+@app.get("/Modelo de prediccion/Lista de predicciones del 2019")
+def lista_predicciones():
+    datos_prediccion = indicadores[['Crecimiento_PIB', 'Tasa_desempleo', 'Muertes_Conflicto', 'Control_Corrupcion']]
+    prediccion = modelo.predict(datos_prediccion).tolist()
+    prediccion_entero = [int(valor) for valor in prediccion]
+    return {'pais': indicadores['Pais'], 'prediccion': prediccion_entero}
 
 @app.get("/Modelo de prediccion/Insercion de datos manual")
 def prediccion_flujo(crecimiento_pib,tasa_desempleo,muertes_conflicto,control_corrupcion):
@@ -200,4 +207,4 @@ def prediccion_flujo(crecimiento_pib,tasa_desempleo,muertes_conflicto,control_co
     df = pd.DataFrame(datos_prediccion)
     prediccion = modelo.predict(df)
     prediccion_entero = int(prediccion[0])
-    return {'respuesta': prediccion_entero}
+    return {'prediccion': prediccion_entero}
