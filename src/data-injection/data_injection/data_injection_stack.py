@@ -21,14 +21,21 @@ class DataInjectionStack(Stack):
             handler="lambda.handler",
             code=_lambda.Code.from_asset("lambda"),
             environment={
-                "S3_BUCKET_NAME": "csvdatainjection"
+                "DB_HOST": "database-migration.cq1xp27nrjmz.us-east-2.rds.amazonaws.com",
+                "DB_USER": "admin",
+                "DB_PASSWORD": "migration2023",
+                "DB_NAME": "migration"
             }
         )
 
-        rule = events.Rule(self, "RuleCronCargaIncremental",        
-            schedule=events.Schedule.rate(Duration.minutes(1000)),
-            targets=[targets.LambdaFunction(event_rule_target)]
-)
+        rule = events.Rule(
+            self, "ETLRule",
+            schedule=events.Schedule.cron(
+                minute="0",
+                hour="2" 
+            )
+        )
+        rule.add_target(targets.LambdaFunction(event_rule_target))
 
         # Asocia una política IAM a la función Lambda para permitir el acceso al bucket de S3
         event_rule_target.add_to_role_policy(

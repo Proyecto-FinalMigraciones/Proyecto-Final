@@ -3,4 +3,5 @@ constructs>=10.0.0,<11.0.0
 boto3
 requests==2.26.0
 pandas
-sqlalchemy
+pymysql
+sqlalchemy==1.4.47
