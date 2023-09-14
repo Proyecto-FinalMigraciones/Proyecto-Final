@@ -4,6 +4,7 @@ import pandas as pd
 import datetime
 import os
 import pymysql
+from constant import regiones_a_eliminar
 
 def obtener_paginas_totales(indicador): 
 
@@ -90,6 +91,8 @@ def transformacion(parametro):
     # 'SP.POP.TOTL.FE.IN': 'Poblacion_femenina',
     })
 
-
+    filas_a_eliminar = dataframe_final['Pais'].isin(regiones_a_eliminar)
+    dataframe_final = dataframe_final.drop(dataframe_final[filas_a_eliminar].index)
+    dataframe_final['Pais'] = dataframe_final['Pais'].str.replace(',', '')
 
     return dataframe_final

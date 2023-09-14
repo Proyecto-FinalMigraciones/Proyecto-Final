@@ -2,7 +2,6 @@ import os
 import pymysql
 import pandas as pd
 
-
 class DatabaseHandler:
     def __init__(self):
         db_host = os.environ["DB_HOST"]
@@ -24,13 +23,20 @@ class DatabaseHandler:
 
             with self.connection.cursor() as cursor:
                 for index, row in dataframe.iterrows():
-                    if len(row) <= 12:
-                        print('ACA ESTA EL ERROR: La cantidad de columnas es igual o menor a 12', row)
-                    else:
-                        values_str = ', '.join([f'{str(value)}' for value in row])
-                        values_list = values_str.split(', ')
-                        query = f"INSERT INTO `{table_name}` ({columns}) VALUES ({', '.join(['%s' for _ in values_list])})"
-                        cursor.execute(query, values_list)
+                        
+                        pais = row['Pais']
+                        año = row['Año']
+                
+                        # Consulta SQL para verificar si ya existe un registro con los mismos valores de 'Pais' y 'Año'
+                        select_query = f"SELECT 1 FROM `{table_name}` WHERE `Pais` = %s AND `Año` = %s"
+                        cursor.execute(select_query, (pais, año))
+                        existe_registro = cursor.fetchone()
+
+                        if not existe_registro:
+                            values_str = ', '.join([f'{str(value)}' for value in row])
+                            values_list = values_str.split(', ')
+                            query = f"INSERT INTO `{table_name}` ({columns}) VALUES ({', '.join(['%s' for _ in values_list])})"
+                            cursor.execute(query, values_list)
                         
 
             self.connection.commit()
