@@ -10,4 +10,4 @@ def handler(event, context):
     db_handler.insert_dataframe(indicadores_df, "prueba")
     db_handler.close_connection()
   except Exception as e:
-      print(f"Error en la funcion general: {str(e)}")
+      print(f"Hubo un error en la lambda: {str(e)}")
