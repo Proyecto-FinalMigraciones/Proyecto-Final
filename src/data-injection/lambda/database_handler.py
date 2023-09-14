@@ -22,11 +22,11 @@ class DatabaseHandler:
             columns = ', '.join([f'`{column}`' for column in dataframe.columns])
 
             with self.connection.cursor() as cursor:
-                for index, row in dataframe.iterrows():
+                for _, row in dataframe.iterrows():
                         
                         pais = row['Pais']
                         año = row['Año']
-                        
+
                         select_query = f"SELECT 1 FROM `{table_name}` WHERE `Pais` = %s AND `Año` = %s"
                         cursor.execute(select_query, (pais, año))
                         existe_registro = cursor.fetchone()
