@@ -214,8 +214,7 @@ def lista_predicciones():
     lista_datos = []
     for index, row in datos_prediccion.iterrows():
         pais = row['Pais']
-        indicadores = row[1:].tolist()  # Excluye la columna 'Pais' en la lista
-        diccionario = {'Pais': pais, 'Crecimiento_PIB': indicadores[0], 'Tasa_desempleo': indicadores[1], 'Muertes_Conflicto': indicadores[2], 'Control_Corrupcion': indicadores[3], 'Prediccion': prediccion_entero[index]}
+        diccionario = {'Pais': pais, 'Prediccion': prediccion_entero[index]}
         lista_datos.append(diccionario)
 
     return {'Respuesta':lista_datos}
