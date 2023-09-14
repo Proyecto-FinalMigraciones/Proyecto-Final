@@ -127,7 +127,7 @@ soupsieve==2.4.1
 SQLAlchemy==2.0.19
 stack-data==0.6.2
 starlette==0.26.1
-streamlit==1.26.0
+streamlit==1.4.0
 tangled-up-in-unicode==0.2.0
 tenacity==8.2.3
 tensorboard==2.13.0
