@@ -1,6 +1,5 @@
 import os
 import pymysql
-import pandas as pd
 
 class DatabaseHandler:
     def __init__(self):
