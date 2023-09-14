@@ -193,6 +193,12 @@ def prediccion_flujo(pais: Pais):
     prediccion_entero = int(prediccion[0])
     return {'respuesta': prediccion_entero}
 
+@app.get("/Modelo de prediccion/Lista de predicciones del 2019")
+def lista_predicciones():
+    datos_prediccion = indicadores[['Crecimiento_PIB', 'Tasa_desempleo', 'Muertes_Conflicto', 'Control_Corrupcion']]
+    prediccion = modelo.predict(datos_prediccion)
+    return {'pais': indicadores['Pais'], 'respuesta': prediccion}
+
 @app.get("/Modelo de prediccion/Insercion de datos manual")
 def prediccion_flujo(crecimiento_pib,tasa_desempleo,muertes_conflicto,control_corrupcion):
     datos_prediccion = {}
