@@ -193,13 +193,30 @@ def prediccion_flujo(pais: Pais):
     prediccion_entero = int(prediccion[0])
     return {'prediccion': prediccion_entero}
 
+#@app.get("/Modelo de prediccion/Lista de predicciones del 2019")
+#def lista_predicciones():
+ #   datos_prediccion = indicadores[['Crecimiento_PIB', 'Tasa_desempleo', 'Muertes_Conflicto', 'Control_Corrupcion']]
+  #  prediccion = modelo.predict(datos_prediccion).tolist()
+   # prediccion_entero = [int(valor) for valor in prediccion]
+  #  resultado ={ 'pais': indicadores['pais'].tolist(),'prediccion':prediccion_entero}
+   # return resultado
+
 @app.get("/Modelo de prediccion/Lista de predicciones del 2019")
 def lista_predicciones():
-    datos_prediccion = indicadores[['Crecimiento_PIB', 'Tasa_desempleo', 'Muertes_Conflicto', 'Control_Corrupcion']]
-    prediccion = modelo.predict(datos_prediccion).tolist()
+    global indicadores
+    datos_prediccion = indicadores[['Pais', 'Crecimiento_PIB', 'Tasa_desempleo', 'Muertes_Conflicto', 'Control_Corrupcion']]  # Asegúrate de incluir 'Pais' en los datos
+    prediccion = modelo.predict(datos_prediccion.iloc[:, 1:])  # Excluye la columna 'Pais' en la predicción
     prediccion_entero = [int(valor) for valor in prediccion]
-    resultado ={ 'pais': indicadores['pais'].tolist(),'prediccion':prediccion_entero}
-    return resultado
+
+#Crea una lista de diccionarios con los datos
+    lista_datos = []
+    for index, row in datos_prediccion.iterrows():
+        pais = row['Pais']
+        indicadores = row[1:].tolist()  # Excluye la columna 'Pais' en la lista
+        diccionario = {'Pais': pais, 'Crecimiento_PIB': indicadores[0], 'Tasa_desempleo': indicadores[1], 'Muertes_Conflicto': indicadores[2], 'Control_Corrupcion': indicadores[3], 'Prediccion': prediccion_entero[index]}
+        lista_datos.append(diccionario)
+
+    return lista_datos
 
 @app.get("/Modelo de prediccion/Insercion de datos manual")
 def prediccion_flujo(crecimiento_pib,tasa_desempleo,muertes_conflicto,control_corrupcion):
