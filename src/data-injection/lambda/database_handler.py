@@ -26,8 +26,7 @@ class DatabaseHandler:
                         
                         pais = row['Pais']
                         año = row['Año']
-                
-                        # Consulta SQL para verificar si ya existe un registro con los mismos valores de 'Pais' y 'Año'
+                        
                         select_query = f"SELECT 1 FROM `{table_name}` WHERE `Pais` = %s AND `Año` = %s"
                         cursor.execute(select_query, (pais, año))
                         existe_registro = cursor.fetchone()
