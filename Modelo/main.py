@@ -198,7 +198,8 @@ def lista_predicciones():
     datos_prediccion = indicadores[['Crecimiento_PIB', 'Tasa_desempleo', 'Muertes_Conflicto', 'Control_Corrupcion']]
     prediccion = modelo.predict(datos_prediccion).tolist()
     prediccion_entero = [int(valor) for valor in prediccion]
-    return {'pais': indicadores['Pais'], 'prediccion': prediccion_entero}
+    resultado ={ 'pais': indicadores['pais'].tolist(),'prediccion':prediccion_entero}
+    return resultado
 
 @app.get("/Modelo de prediccion/Insercion de datos manual")
 def prediccion_flujo(crecimiento_pib,tasa_desempleo,muertes_conflicto,control_corrupcion):
