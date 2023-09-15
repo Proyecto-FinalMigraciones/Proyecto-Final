@@ -27,6 +27,7 @@ class WorldBankDataFetcher:
         except Exception as e:
             print("🐍 File: lambda/worldbank.py | Line: 28 | obtener_paginas_totales ~ Error",e)
 
+
     def obtener_datos(self, indicador):
         try:
             total_data = []
@@ -53,6 +54,7 @@ class WorldBankDataFetcher:
             return data_df
         except Exception as e:
             print("🐍 File: lambda/worldbank.py | Line: 55 | obtener_datos ~ Error",e)
+
 
     def transformacion(self, parametro):
         try:
@@ -88,9 +90,8 @@ class WorldBankDataFetcher:
                 'SP.DYN.LE00.IN': 'Esperanza_vida',
                 'SM.POP.NETM': 'Migracion_neta',
                 'SP.POP.TOTL': 'Poblacion_total',
-                # 'SP.POP.TOTL': 'Poblacion_total',
-                # 'SP.POP.TOTL.MA.IN': 'Poblacion_masculina',
-                # 'SP.POP.TOTL.FE.IN': 'Poblacion_femenina',
+                'SP.POP.TOTL.MA.IN': 'Poblacion_masculina',
+                'SP.POP.TOTL.FE.IN': 'Poblacion_femenina',
             })
 
             filas_a_eliminar = dataframe_final['Pais'].isin(regiones_a_eliminar)

@@ -9,15 +9,10 @@ todos_los_indicadores = [
     'SP.DYN.LE00.IN', 
     'SM.POP.NETM', 
     'SP.POP.TOTL',
-    # 'SP.POP.TOTL.MA.IN',
-    # 'SP.POP.TOTL.FE.IN'
+    'SP.POP.TOTL.MA.IN',
+    'SP.POP.TOTL.FE.IN'
     ]
 
-# poblacion = [
-#     'SP.POP.TOTL',
-#     'SP.POP.TOTL.MA.IN',
-#     'SP.POP.TOTL.FE.IN'
-# ]
 
 regiones_a_eliminar = [
     'Africa Eastern and Southern', 'Africa Western and Central',

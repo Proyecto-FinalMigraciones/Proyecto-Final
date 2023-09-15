@@ -7,7 +7,7 @@ def handler(event, context):
   worldbank = WorldBankDataFetcher()
   try:
     indicadores_df = worldbank.transformacion(todos_los_indicadores)
-    db_handler.insert_dataframe(indicadores_df, "prueba")
+    db_handler.insert_dataframe(indicadores_df, "indicadores")
     db_handler.close_connection()
 
   except Exception as e:
