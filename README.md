@@ -46,9 +46,24 @@ Que pasos se realizaron
 
 ## Data Analytics
 
-Que tareas se realizaron
-
 EDA 
+
+Se realizó un análisis exploratorio de datos de flujos migratorios, donde se exploraron diversos aspectos fundamentales relacionados con los movimientos poblacionales en diferentes países y rutas migratorias. El propósito principal ha sido obtener una comprensión profunda de las tendencias generales, los patrones y los factores determinantes que influyen en los desplazamientos de personas en el contexto actual.
+
+A lo largo del análisis, se han destacado varios hallazgos:
+
+Tendencias Globales: Se ha constatado un aumento constante en los flujos migratorios a lo largo de los años, lo que sugiere un fenómeno de alcance global y en constante evolución.
+
+Regiones de Origen y Destino: Se han identificado regiones y países que actúan como puntos de origen y destino para los migrantes. Estos patrones obedecen a una variedad de factores, entre ellos los económicos y sociales, que impulsan los movimientos poblacionales.
+
+Factores Económicos: Se ha observado una relación entre el crecimiento del Producto Interno Bruto (PIB) de un país y la cantidad de inmigrantes que buscan establecerse en él. Los países con economías más robustas tienden a atraer a individuos en busca de empleo y oportunidades financieras.
+
+Refugiados y Conflictos: Se ha evidenciado que una porción de los flujos migratorios ocurre en regiones afectadas por conflictos armados y situaciones de crisis.
+
+Distribución de Género: Se ha analizado la distribución de género en los flujos migratorios y se ha observado que las migraciones a menudo involucran tanto a hombres como a mujeres en proporciones similares.
+
+En resumen, el análisis de los datos resalta la naturaleza de los flujos migratorios y cómo su dinámica es moldeada por una diversidad de factores interrelacionados.
+
 
 ## Machine Learning
 
