@@ -77,6 +77,15 @@ Estos son los EDA reaizados a cada dataset:
 Refugiados [País de asilo](https://github.com/Proyecto-FinalMigraciones/Proyecto-Final/blob/main/EDA/refugiados_pais_asilo_EDA.ipynb) y
 [País de origen](https://github.com/Proyecto-FinalMigraciones/Proyecto-Final/blob/main/EDA/refugiados_pais_origen_EDA.ipynb)
 
+#
+Usamos stack tecnológico como:
+- Python
+- Numpy
+- Pandas
+- Matplotlib
+- Geopandas
+- Seaborn
+
 
 ## Machine Learning
 
@@ -138,6 +147,12 @@ Dedicada al análisis del modelo de predicción que proporciona conclusiones rel
 ![KPI's Países Destino](https://github.com/Proyecto-FinalMigraciones/Proyecto-Final/blob/main/_src/Pag5_dash.png)
 
 ## Conclusiones
+
+- Atraves del analisis podemos comprender la complejidad de los gflujos migratorios y como estos estan estrechamente vinculados a diversoso factores que influyen en la toma de esta decision, entendimos como estos evolucionan con el tiempo  afectando tanto a los países de origen como de destino en aspectos economicos, sociales y demograficos, destacamos la importancia de la equidad de genero y analizamos patrones que nos dan luz sobre la crisis de población refugiada que enfrentamos a nivel mundial.
+
+- Si bien algunos de los paises más populares de origen y destino cumplieron los objetivos de los KPIs aun es necesario plantearse nuevas politicas que abarquen más efectivamente estos desafios.
+
+- Con el modelo obtuvimos una visión de como estas politicas y programas pueden generar un impacto significativo en la situacion socioeconomica y demografica de cada pais.
 
 ## Authors
 
