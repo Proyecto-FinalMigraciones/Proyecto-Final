@@ -43,7 +43,14 @@ Se pueden encontrar [Aquí](https://github.com/Proyecto-FinalMigraciones/Proyect
 
 ## Data Engineering
 
-Que pasos se realizaron
+En esta fase del proyecto diseñamos e implementamos la arquitectura que permite automatizar la ingesta y procesamiento de datos.
+
+Empezamos con una primera carga inicial en la base de datos, lo que nos permitio establecer una base solida para el procesamiento posterior.
+Para lograr la automatizacion utilizamos dos servicios clave de AWS: Lambda y EventBridge. Lambda se encarga de ejecutar tareas específicas en respuesta a eventos, mientras que EventBridge facilita la orquestación de estos eventos. En conjunto estos servicios gestionaron nuestro pipeline de datos y permitieron el almacenamiento de los datos en la BD.
+Como base de datos utilizamos una instancia de Mysql en RDS de AWS, elegimos esta opcion por su rapida implementacion, integridad y disponibilidad.
+Utilizamos los datos almacenados en RDS para alimentar nuestros productos de datos, por un lado el reporte en Power Bi, que proporciona una perspectiva en tiempo real de los datos. Por otro lado tenemos nuestro modelo de ML que tambien consume los datos disponibles en RDS y se expone a traves de un endpoint en FastApi.
+Para una mejor experiencia se diseño una interfaz de usuario en Streamlit que se conecta al endpoint de FastApi y permite una interaccion con el modelo de predicción mucho mas sencilla e intuitiva.
+Diseñamos esta arquitectura de datos con enfoque en el cliente, garantizando que siempre esten informados con los datos mas actualizados y puedan tomar decisiones informadas y en tiempo real.
 
 ## Data Analytics
 
@@ -78,13 +85,22 @@ Refugiados [País de asilo](https://github.com/Proyecto-FinalMigraciones/Proyect
 [País de origen](https://github.com/Proyecto-FinalMigraciones/Proyecto-Final/blob/main/EDA/refugiados_pais_origen_EDA.ipynb)
 
 #
-Usamos stack tecnológico como:
+Para la realizacion del proyecto utilizamos el siguiente stack tecnológico:
 - Python
 - Numpy
 - Pandas
 - Matplotlib
 - Geopandas
 - Seaborn
+- Scikit-Learn
+- PyMysql
+- Requests
+- FastApi
+- Pickle
+- Render
+- Power Bi
+- MySQL
+- AWS
 
 
 ## Machine Learning
@@ -156,7 +172,7 @@ Dedicada al análisis del modelo de predicción que proporciona conclusiones rel
 
 ## Authors
 
-- [Brenda]()
+- [Brenda](https://github.com/brenjaras)
 - [Angie](https://github.com/Angiea18)
 - [Miller](https://github.com/Milalex19)
 - [Kevin](https://github.com/KevinBonnin)
