@@ -1,12 +1,6 @@
 import streamlit as st
 import requests
 
-# Ruta de la imagen
-logo_path = "logo3.png"
-
-# Mostrar la imagen con un ancho de 140 y sin título
-st.image(logo_path, width=140, caption="")
-
 # Título principal de la aplicación
 st.title('BAMK Data Solutions')
 st.write("Datos inteligentes para decisiones inteligentes")
