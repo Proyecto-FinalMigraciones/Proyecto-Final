@@ -4,6 +4,7 @@ import openpyxl
 from io import BytesIO
 from database_handler import DatabaseHandler
 from un_transform import transform_destino
+from un_transform import transform_origen
 
 def handler(event, context):
     records = event.get('Records', [])
@@ -30,16 +31,12 @@ def handler(event, context):
         df_final = pd.DataFrame()
 
         if 'origin' in object_key:
-            df_final = transform_destino(df) #TODO CAMBIAR FUNCION ETL
+            df_final = transform_origen(df)
         else:
             df_final = transform_destino(df)
 
-
-
         db_handler.insert_dataframe(df_final, "migracion_origen_destino")
         db_handler.close_connection()
-
-
 
     except Exception as e:
         print(f"Error al descargar y leer el archivo .xlsx: {e}")
