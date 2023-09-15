@@ -3,7 +3,7 @@
 
 ### Data Science - Proyecto Final
 
-![PF]()
+![PF](https://github.com/Proyecto-FinalMigraciones/Proyecto-Final/blob/main/_src/mapa.gif)
 
 #
 
@@ -36,9 +36,9 @@ En este proyecto, nos enfocaremos en el análisis de flujos migratorios internac
 
 De donde fueron extraidos y cuales son
 
-## Stack Tecnológico
+## Diagrama de arquitectura
 
-![Diagrama]()
+![Diagrama](https://github.com/Proyecto-FinalMigraciones/Proyecto-Final/blob/main/_src/Diagrama_arquitectura.jpg)
 
 ## Data Engineering
 
@@ -99,41 +99,42 @@ Posteriormente, se implementó **`Streamlit`** para mejorar la interfaz y ofrece
 
 Página principal que ofrece una visión general de los flujos migratorios y acceso a otras secciones del dashboard.
 
-![Portada]()
+![Portada](https://github.com/Proyecto-FinalMigraciones/Proyecto-Final/blob/main/_src/Portada_dashboard.png)
 
 ### Página 1 - Factores Migratorios
 
-![Factores migratorios]()
-
 Muestra gráficos de factores clave relacionados con la migración, como el crecimiento del PIB, el control de la corrupción, la tasa de desempleo, la migración neta y la población total de cada país.
+
+![Factores migratorios](https://github.com/Proyecto-FinalMigraciones/Proyecto-Final/blob/main/_src/Pag1_dash.png)
+
 
 ### Página 2 - Origen y Destino / Refugiados
 
-![Origen y Destino]()
-
 Compara la población desglosada por género, en países de origen y destino, y ofrece información sobre la cantidad de personas que buscan refugio en comparación con las que abandonan sus países de origen.
 
-### Página 3 - KPIs de Países de Origen
+![Origen y Destino](https://github.com/Proyecto-FinalMigraciones/Proyecto-Final/blob/main/_src/Pag2_dash.png)
 
-![KPI's Países Origen]()
+### Página 3 - KPIs de Países de Origen
 
 Presenta los **`Indicadores Clave de Desempeño (KPIs)`** de los países de **origen** más frecuentes de emigración.
 - Reducción de la tasa de desempleo en un 3% en los próximos 2 años.
 - Reducción de la tasa de migración neta en un 1% en el próximo año.
 
-### Página 4 - KPIs de Países Destino
+![KPI's Países Origen](https://github.com/Proyecto-FinalMigraciones/Proyecto-Final/blob/main/_src/Pag3_dash.png)
 
-![KPI's Países Destino]()
+### Página 4 - KPIs de Países Destino
 
 En sintonía con la página anterior, esta sección presenta los Indicadores Clave de Desempeño (KPIs) de los países de **Destino** más habituales para la inmigración
 - Reducir la tasa de desempleo en un 3% en los próximos 2 años .
 - Reducir la tasa de migración neta en un 1% en el próximo año. 
 
+![KPI's Países Destino](https://github.com/Proyecto-FinalMigraciones/Proyecto-Final/blob/main/_src/Pag4_dash.png)
+
 ### Página 5 - Modelo
 
-![KPI's Países Destino]()
-
 Dedicada al análisis del modelo de predicción que proporciona conclusiones relevantes relacionadas con los flujos migratorios. Se basa en datos extraídos de la API creada para el proyecto.
+
+![KPI's Países Destino](https://github.com/Proyecto-FinalMigraciones/Proyecto-Final/blob/main/_src/Pag5_dash.png)
 
 ## Conclusiones
 
@@ -144,4 +145,4 @@ Dedicada al análisis del modelo de predicción que proporciona conclusiones rel
 - [Miller](https://github.com/Milalex19)
 - [Kevin](https://github.com/KevinBonnin)
 
-![Logo BAMK]()
+![Logo BAMK](https://github.com/Proyecto-FinalMigraciones/Proyecto-Final/blob/main/_src/logo3.png)
