@@ -34,7 +34,7 @@ En este proyecto, nos enfocaremos en el análisis de flujos migratorios internac
 
 ## Datasets
 
-De donde fueron extraidos
+Contamos con varios datasets que fueron extraido mediante CSV y consulta a la [API del Banco Mundial](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information), los archivos CSV se extrajeron de [PORTAL DE DATOS SOBRE MIGRACIÓN](https://www.migrationdataportal.org/es/international-data?i=stock_abs_&t=2020) y de [United Nations Population Division](https://www.un.org/development/desa/pd/content/international-migrant-stock), de manera manual.
 Se pueden encontrar [Aquí](https://github.com/Proyecto-FinalMigraciones/Proyecto-Final/tree/main/Datasets)
 
 ## Diagrama de arquitectura
