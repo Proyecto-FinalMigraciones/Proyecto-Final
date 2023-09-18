@@ -167,11 +167,11 @@ Dedicada al análisis del modelo de predicción que proporciona conclusiones rel
 
 ## Conclusiones
 
-- Atraves del analisis podemos comprender la complejidad de los gflujos migratorios y como estos estan estrechamente vinculados a diversoso factores que influyen en la toma de esta decision, entendimos como estos evolucionan con el tiempo  afectando tanto a los países de origen como de destino en aspectos economicos, sociales y demograficos, destacamos la importancia de la equidad de genero y analizamos patrones que nos dan luz sobre la crisis de población refugiada que enfrentamos a nivel mundial.
+- A través del análisis, podemos comprender la complejidad de los flujos migratorios y cómo estos están estrechamente vinculados a diversoso factores que influyen en la toma de esta decisión. Entendimos cómo estos evolucionan con el tiempo,  afectando tanto a los países de origen como a los de destino en aspectos económicos, sociales y demográficos. Destacamos la importancia de la equidad de género y analizamos patrones que nos dan luz sobre la crisis de población refugiada que enfrentamos a nivel mundial.
 
-- Si bien algunos de los paises más populares de origen y destino cumplieron los objetivos de los KPIs aun es necesario plantearse nuevas politicas que abarquen más efectivamente estos desafios.
+- Si bien algunos de los países más populares de origen y destino cumplieron los objetivos de los KPI's, aúun es necesario plantearse nuevas políticas que abarquen más efectivamente estos desafios.
 
-- Con el modelo obtuvimos una visión de como estas politicas y programas pueden generar un impacto significativo en la situacion socioeconomica y demografica de cada pais.
+- Con el modelo de predicción de fujos migratorios, obtuvimos una visión de cómo estas políticas y programas pueden generar un impacto significativo en la situación socioeconómica y demográfica de cada país.
 
 ## Authors
 
